@@ -1,0 +1,39 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica";
+  }
+
+  Header {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    text-align: left;
+    background-color: #75abf0;
+  }
+
+  Header img {
+    height: 75px;
+  }
+
+  Header ul li a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  Header ul li a:hover {
+    background-color: #7fc9e7;
+    border-radius: 30px;
+    opacity: 0.4;
+  }
+
+  header ul li {
+    padding: 18px;
+    display: inline-block;
+  }
+
+  Header ul {
+    padding-left: 0px;
+  }
