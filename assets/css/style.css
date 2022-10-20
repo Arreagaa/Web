@@ -1,4 +1,4 @@
-body {
+*{
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
@@ -10,15 +10,6 @@ a {
 a:hover {
   color: #51cdbe;
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", sans-serif;
 }
 
 #main {
@@ -43,6 +34,7 @@ h6 {
 
 #header .logo a {
   color: #222222;
+  text-decoration: none;
 }
 
 #header .logo img {
