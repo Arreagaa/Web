@@ -91,6 +91,7 @@ a:hover {
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
+  text-decoration: none;
 }
 
 .navbar a i,
