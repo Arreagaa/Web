@@ -239,6 +239,7 @@ a:hover {
   margin-top: 30px;
   color: #fff;
   background: #34b7a7;
+  text-decoration: none;
 }
 
 #hero .btn-about:hover {
