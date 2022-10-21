@@ -186,7 +186,7 @@ a:hover {
 #hero {
   width: 100%;
   height: 100vh;
-  background:url("../images/") top right;
+  background:url("https://uvn-brightspot.s3.amazonaws.com/assets/vixes/btg/curiosidades.batanga.com/files/5-cosas-muy-interesantes-sobre-las-ballenas-blancas-que-no-sabias-1.jpg") top right;
   background-size: cover;
 }
 
@@ -205,15 +205,17 @@ a:hover {
   font-family:Verdana, Geneva, Tahoma, sans-serif ;
   margin: 0;
   font-size: 45px;
-  font-weight: 540;
+  font-weight: 700;
   line-height: 54px;
-  color: #222222;
+  color: #fff;
+  text-transform: uppercase;
+  text-align:center;
 }
 
 #hero h2 {
-  color: #6f6f6f;
+  color: #fff;
   margin: 10px 0 0 0;
-  font-size: 22px;
+  font-size: 28px;
 }
 
 #hero .btn-about {
