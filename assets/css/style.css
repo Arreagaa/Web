@@ -114,7 +114,7 @@ a:hover {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #222222;
+  color: rgb(24 24 27);;
 }
 
 .navbar .dropdown ul {
@@ -185,9 +185,11 @@ a:hover {
 }
 #hero {
   width: 100%;
-  height: 100vh;
-  background:url("https://uvn-brightspot.s3.amazonaws.com/assets/vixes/btg/curiosidades.batanga.com/files/5-cosas-muy-interesantes-sobre-las-ballenas-blancas-que-no-sabias-1.jpg") top right;
+  height: 155vh;
+  background:url("https://bloximages.chicago2.vip.townnews.com/anchoragepress.com/content/tncms/assets/v3/editorial/8/05/805600ee-36bf-11ed-9891-8f8bd2dfc696/632620dbc79e6.image.png?resize=1035%2C740") top right;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 #hero .container {
@@ -247,7 +249,6 @@ a:hover {
 @media (max-width: 992px) {
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.8);
     position: absolute;
     bottom: 0;
     top: 0;
