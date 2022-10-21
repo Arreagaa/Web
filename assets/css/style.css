@@ -16,20 +16,10 @@ a:hover {
   margin-top: 50px;
 }
 #header {
-  background: #e9e8e6;
-  box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
+  background: #accaa1;
+  box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.00);
   z-index: 997;
   padding: 15px 0;
-}
-
-#header .logo {
-  font-size: 32px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 2px;
-  text-transform: uppercase;
 }
 
 #header .logo a {
@@ -38,7 +28,8 @@ a:hover {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 55px;
+  margin-left: 0.5cm;
 }
 
 @media (max-width: 992px) {
@@ -48,6 +39,7 @@ a:hover {
 }
 .header-social-links {
   padding-right: 15px;
+  
 }
 
 .header-social-links a {
@@ -59,9 +51,6 @@ a:hover {
   font-size: 16px;
 }
 
-.header-social-links a:hover {
-  color: #34b7a7;
-}
 .navbar {
   padding: 0;
 }
@@ -84,8 +73,8 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-family:'Trebuchet MS', sans-serif;
+  font-size: 17px;
   font-weight: 600;
   color: #888888;
   white-space: nowrap;
@@ -108,7 +97,7 @@ a:hover {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: #34b7a7;
+  background-color: #517470;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -197,7 +186,7 @@ a:hover {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right;
+  background:url("../images/") top right;
   background-size: cover;
 }
 
@@ -213,10 +202,11 @@ a:hover {
 }
 
 #hero h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
   margin: 0;
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 56px;
+  font-size: 45px;
+  font-weight: 540;
+  line-height: 54px;
   color: #222222;
 }
 
@@ -238,12 +228,12 @@ a:hover {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #34b7a7;
+  background: #a8c49a;
   text-decoration: none;
 }
 
 #hero .btn-about:hover {
-  background: #3dc8b7;
+  background: #ccdcc3;
 }
 
 @media (min-width: 1024px) {
