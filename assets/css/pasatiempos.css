@@ -1,5 +1,5 @@
 *{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lucida Sans", Lucida;
   color: #444444;
 }
 
@@ -195,6 +195,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .section-title h2 {
@@ -275,6 +276,8 @@ section {
 .single-awesome-project {
   overflow: hidden;
   margin-bottom: 30px;
+  width: 100%;
+  height: 100%;
 }
 
 .first-item {
@@ -293,11 +296,14 @@ section {
 
 .single-awesome-project:hover .awesome-img > a::after {
   opacity: 1;
+  border-radius: 10px;
 }
 
 .single-awesome-project:hover .add-actions {
   opacity: 1;
   bottom: 0;
+  border-radius: 10px;
+  
 }
 
 .awesome-img > a::after {
@@ -310,6 +316,7 @@ section {
   width: 100%;
   opacity: 0;
   transition: 0.4s;
+  
 }
 
 .add-actions {
@@ -411,4 +418,43 @@ section {
   height: 3px;
   bottom: 0;
   left: calc(50% - 20px);
+}
+#footer {
+  background: #D6EAF8;
+  padding: 30px 0;
+  color: #222222;
+  font-size: 14px;
+  text-align: center;
+}
+
+#footer .credits {
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+#footer .credits a {
+  color: #819FF7;
+}
+.to-top{
+  background-color: white;
+  position: fixed;
+  bottom: 16px;
+  right: 32px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: red;
+  text-decoration: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s;
+}
+.to-top.active{
+  bottom: 32px;
+  pointer-events: auto;
+  opacity: 1;
 }
