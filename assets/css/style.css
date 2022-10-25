@@ -371,8 +371,9 @@ section {
 #footer .credits a {
   color: #819FF7;
 }
+
+/* up */
 .to-top{
-  background-color: white;
   position: fixed;
   bottom: 16px;
   right: 32px;
@@ -385,14 +386,12 @@ section {
   font-size: 32px;
   color: plum;
   text-decoration: none;
-  opacity: 0;
   pointer-events: none;
   transition: all .4s;
 }
 .to-top.active{
   bottom: 32px;
   pointer-events: auto;
-  opacity: 100%;
 }
 
 /*
