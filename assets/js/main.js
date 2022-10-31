@@ -8,6 +8,7 @@ window.addEventListener("scroll",() => {
     }
 })
 
+<<<<<<< Updated upstream
 let portfolionIsotope = document.querySelector('.portfolio-isotope');
 
   if (portfolionIsotope) {
@@ -41,3 +42,5 @@ let portfolionIsotope = document.querySelector('.portfolio-isotope');
     });
 
   }
+=======
+>>>>>>> Stashed changes
