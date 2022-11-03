@@ -736,7 +736,6 @@ body {
 }
 
 ::marker{
-  opacity: 0 !important;
   color: #CEE3F6;
 }
 .project-container{
@@ -749,6 +748,7 @@ body {
 }
 .project-box{
   width: 330px;
+  height: 222.19px;
   padding: 5px;
   border: 1px solid #CEE3F6;
   margin: 10px;
