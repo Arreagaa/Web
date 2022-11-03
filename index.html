@@ -62,8 +62,8 @@
         /></a>
 
         <nav id="navbar" class="navbar order-last order-lg-0">
-          <ul>
-            <li><a class="active" href="index.html">Inicio</a></li>
+          <ul class="nav-filters">
+            <li><a class="list nav-filters-active" href="index.html">Inicio</a></li>
             <li><a href="index.html#portafolio">Portafolio</a></li>
             <li><a href="pasatiempos.html">Pasatiempos</a></li>
           </ul>
@@ -183,12 +183,50 @@
             <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
           </div>
           <ul class="projects-filter">
-            <li class="list projects-filter-active">Todas</li>
-            <li class="list">Orcas</li>
-            <li class="list">Belugas</li>
-            <li class="list">Narvales</li>
+            <li class="list projects-filter-active" data-filter="Todas">Todas</li>
+            <li class="list"  data-filter="Orcas">Orcas</li>
+            <li class="list"  data-filter="Belugas">Belugas</li>
+            <li class="list"  data-filter="Narval">Narvales</li>
           </ul>
 
+          <div class="project-container">
+          <!--orca 1-->
+          <a href="" class="project-box Orcas">
+            <img src="assets/images/istockphoto-1346460633-170667a.jpg" alt="work">
+          </a>
+        <!--beluga 1-->
+          <a href="" class="project-box Belugas">
+            <img src="https://media.istockphoto.com/photos/sweet-hugs-picture-id182062392?k=20&m=182062392&s=612x612&w=0&h=aK-my8RzqDgWOxQAlBnDK67EIFac_dhPdbKr4ow-bIQ=" alt="work">
+          </a>
+        <!--narval 1-->
+          <a href="" class="project-box   Narval">
+            <img src="https://www.si.edu/sites/default/files/newsdesk/press_releases/1.11.01_1684_gw_narwhal_tusk_topics.jpg" alt="work">
+          </a>
+        <!--orca 2-->
+          <a href="" class="project-box Orcas">
+            <img src="https://cdn.pixabay.com/photo/2017/05/30/22/10/orca-2358366__340.jpg" alt="work">
+          </a>
+        <!--beluga 2-->
+          <a href="" class="project-box Belugas">
+            <img src="https://media.istockphoto.com/photos/smiling-beluga-whale-picture-id115983972?k=20&m=115983972&s=612x612&w=0&h=Pe6lJTZlIgZljw7yc_VgUlOTnOEbVGwO8euUGvkrH9g=" alt="work">
+         </a>
+        <!--narval 2-->
+          <a href="" class="project-box Narval">
+            <img src="https://static.wikia.nocookie.net/reinoanimalia/images/d/d1/Narval.jpg/revision/latest?cb=20180730072457&path-prefix=es" alt="work">
+          </a>
+        <!--orca 3-->
+          <a href="" class="project-box Orcas">
+            <img src="https://media.istockphoto.com/photos/killer-whale-orcinus-orca-adult-picture-id1253825175?b=1&k=20&m=1253825175&s=170667a&w=0&h=7w8oWorhEb7wLFu0DOTHcriR_qjBc3WBYbepiembqQQ=" alt="work">
+          </a>
+        <!--beluga 3-->
+          <a href="" class="project-box Belugas">
+            <img src="https://media.istockphoto.com/photos/beluga-picture-id1279149477?k=20&m=1279149477&s=612x612&w=0&h=gkwiDUmSJR5GOwxUOvZjROUKONhIVcDCbQnoFBVBKSs=" alt="work">
+          </a>
+        <!--narval 3-->
+          <a href="" class="project-box Narval">
+            <img src="https://media.istockphoto.com/photos/narwhal-picture-id928991632?k=20&m=928991632&s=612x612&w=0&h=pMrRMI1nqsvx8DZtCNqmF21wsBBHryk6Az7j1j5LjPo=" alt="work">
+          </a>
+        </div>
         </section>
 
      <section class="whale">
@@ -219,6 +257,13 @@
   </body>
 </html>
 
-,<script>
-
+<script type="text/javascript">
+$(document).on('click','.projects-filter li',function(){
+  $(this).addClass('projects-filter-active').siblings().removeClass('projects-filter-active')
+  });
 </script>
+<script type="text/javascript">
+  $(document).on('click','.nav-filters li',function(){
+    $(this).addClass('nav-filters-active').siblings().removeClass('nav-filters-active')
+    });
+  </script>
