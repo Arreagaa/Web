@@ -96,7 +96,7 @@
       >
         <h1 class="title-hero">Mi Primera Página Web</h1>
         <h2 class="text-center">By Fer</h2>
-        <a href="whale.html" class="btn-about">Ballena</a>
+        <a href="index.html#resumen" class="btn-about">Resumen</a>
       </div>
     </section>
 
@@ -229,6 +229,8 @@
         </div>
         </section>
 
+        <div class="btn-ballena" aling="center"> <a href="whale.html" class="btn-about-ballena" aling="center">Presiona aquí</a></div>
+        
      <section class="whale">
       <div class="cartoon">
         <div class="fin fin-back"></div>
@@ -265,4 +267,17 @@
   $(document).on('click','.nav-filters li',function(){
       $(this).addClass('nav-filters-active').siblings().removeClass('nav-filters-active')
   });
+
+  $(document).ready(function(){
+    $('.list').click(function(){
+      const value = $(this).attr('data-filter');
+      if(value == 'Todas'){
+        $('.project-box').show('1000');
+      }
+      else{
+        $('.project-box').not('.'+value).hide('1000');
+        $('.project-box').filter('.'+value).show('1000');
+      }
+    });
+    });
 </script>
